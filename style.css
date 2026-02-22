@@ -64,6 +64,22 @@ nav .nav-hex {
   font-weight: 700;
 }
 
+nav .lang-switch,
+.landing-nav .lang-switch {
+  margin-left: auto;
+  color: var(--dimmer);
+  border: 1px solid var(--dimmer);
+  padding: 0.1em 0.5em;
+  font-size: 0.75rem;
+  border-radius: 2px;
+}
+
+nav .lang-switch:hover,
+.landing-nav .lang-switch:hover {
+  color: var(--cyan);
+  border-color: var(--cyan);
+}
+
 /* === CONTENT === */
 .content {
   max-width: 700px;
